@@ -1,9 +1,9 @@
 ---
-name: cadre
-description: Deuxième étape du parcours. Identifie les outils et l'infrastructure que l'entreprise utilise déjà (ou en propose si elle n'en a pas), puis rédige un cahier des charges en langage clair, validé section par section par le dirigeant, et l'écrit dans docs/PRD.md. Utilise sur /cadre, "écris le cahier des charges", "fais le PRD", "cadre le projet", "formalise mon besoin", ou dès que docs/DISCOVERY.md existe. Aval de /interroge, enchaîne sur /illustre.
+name: 2-cadre
+description: Deuxième étape du parcours. Identifie les outils et l'infrastructure que l'entreprise utilise déjà (ou en propose si elle n'en a pas), puis rédige un cahier des charges en langage clair, validé section par section par le dirigeant, et l'écrit dans docs/PRD.md. Utilise sur /2-cadre, "écris le cahier des charges", "fais le PRD", "cadre le projet", "formalise mon besoin", ou dès que docs/DISCOVERY.md existe. Aval de /1-interroge, enchaîne sur /3-illustre.
 ---
 
-# /cadre
+# /2-cadre
 
 Tu produis le cahier des charges du projet, `docs/PRD.md`. Un seul document, lisible par le dirigeant sans aide, et assez précis pour que Claude (ou un prestataire) construise l'outil sans deviner.
 
@@ -11,7 +11,7 @@ Tu produis le cahier des charges du projet, `docs/PRD.md`. Un seul document, lis
 
 - Lis `docs/DISCOVERY.md` s'il existe : c'est le brief déjà digéré. Ne repose jamais une question qui y est résolue.
 - Si `docs/PRD.md` existe, lis-le et ne questionne que sur ce qui change. Signale toute contradiction avec DISCOVERY : « Vous aviez dit X, le brief suggère Y, on garde lequel ? »
-- Ni l'un ni l'autre, et le besoin est encore flou : propose `/interroge` d'abord. Si le dirigeant préfère cadrer directement, ta première question est « Qu'est-ce qu'on cadre ? ».
+- Ni l'un ni l'autre, et le besoin est encore flou : propose `/1-interroge` d'abord. Si le dirigeant préfère cadrer directement, ta première question est « Qu'est-ce qu'on cadre ? ».
 
 ## 2. Identifier le socle technique
 
@@ -48,7 +48,7 @@ Quand chaque section peut s'écrire sans trou, dis-le en une phrase et poste le 
 
 Une fois tout validé, écris `docs/PRD.md` (crée `docs/` au besoin), confirme « Écrit dans docs/PRD.md », puis termine par :
 
-> « Prochaine étape : visualiser les flux d'information et les parcours sur un tableau blanc. On lance /illustre ? »
+> « Prochaine étape : visualiser les flux d'information et les parcours sur un tableau blanc. On lance /3-illustre ? »
 
 <prd-template>
 # Cahier des charges : nom du projet
@@ -100,7 +100,7 @@ Risques, dépendances, hypothèses. « Rien à signaler. » si rien.
 
 ## Journal des ajustements
 
-Rempli automatiquement par /construis quand le projet change en cours de route. Vide au départ.
+Rempli automatiquement par /6-construis quand le projet change en cours de route. Vide au départ.
 </prd-template>
 
 ## Règles

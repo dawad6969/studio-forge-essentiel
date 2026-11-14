@@ -1,9 +1,9 @@
 ---
-name: design
-description: Quatrième étape du parcours. Propose une charte graphique sobre adaptée à l'activité de l'entreprise et à l'outil (2 à 3 couleurs, une typographie lisible, boutons plats, peu d'effets), en partant de l'identité existante si elle existe, montre un aperçu, puis écrit docs/DESIGN.md. Utilise sur /design, "charte graphique", "design system", "couleurs", "à quoi ressemblera l'outil", ou dès que le cahier des charges est validé. Aval de /illustre, enchaîne sur /planifie.
+name: 4-design
+description: Quatrième étape du parcours. Propose une charte graphique sobre adaptée à l'activité de l'entreprise et à l'outil (2 à 3 couleurs, une typographie lisible, boutons plats, peu d'effets), en partant de l'identité existante si elle existe, montre un aperçu, puis écrit docs/DESIGN.md. Utilise sur /4-design, "charte graphique", "design system", "couleurs", "à quoi ressemblera l'outil", ou dès que le cahier des charges est validé. Aval de /3-illustre, enchaîne sur /5-planifie.
 ---
 
-# /design
+# /4-design
 
 Un outil de PME n'a pas besoin d'être spectaculaire. Il doit être lisible, calme et cohérent avec l'entreprise. Cette étape pose une charte simple que toutes les phases de construction respecteront. Sortie : `docs/DESIGN.md`.
 
@@ -87,7 +87,7 @@ Espacement, accessibilité, ce qu'on s'interdit.
 
 Confirme « Écrit dans docs/DESIGN.md », puis termine par :
 
-> « Prochaine étape : découper le projet en étapes de construction. On lance /planifie ? »
+> « Prochaine étape : découper le projet en étapes de construction. On lance /5-planifie ? »
 
 ## Règles
 

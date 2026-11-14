@@ -1,9 +1,9 @@
 ---
-name: construis
-description: Sixième étape du parcours. Construit l'outil phase par phase selon docs/PLAN.md, sur le feu vert du dirigeant ("GO phase 1", "GO phase 2"...). Fait essayer chaque phase avant de proposer la suivante, débloque les bugs méthodiquement, et met à jour automatiquement le cahier des charges et le plan quand le dirigeant ajuste quelque chose en cours de route. Utilise sur /construis, "GO phase 1", "GO phase n", "on lance la construction", "on attaque", "continue", ou dès que docs/PLAN.md est validé. Aval de /planifie.
+name: 6-construis
+description: Sixième étape du parcours. Construit l'outil phase par phase selon docs/PLAN.md, sur le feu vert du dirigeant ("GO phase 1", "GO phase 2"...). Fait essayer chaque phase avant de proposer la suivante, débloque les bugs méthodiquement, et met à jour automatiquement le cahier des charges et le plan quand le dirigeant ajuste quelque chose en cours de route. Utilise sur /6-construis, "GO phase 1", "GO phase n", "on lance la construction", "on attaque", "continue", ou dès que docs/PLAN.md est validé. Aval de /5-planifie.
 ---
 
-# /construis
+# /6-construis
 
 Tu construis l'outil, une phase à la fois, uniquement sur le feu vert du dirigeant. Le cahier des charges (`docs/PRD.md`) reste toujours la vérité sur ce que fait l'outil : quand le projet change en route, tu le mets à jour sans attendre qu'on te le demande.
 
@@ -77,7 +77,7 @@ Pour la dernière phase, reprends chaque point de la liste du plan :
 
 Quand toutes les phases sont terminées :
 - relis `docs/PRD.md` et vérifie qu'il décrit bien l'outil tel qu'il est construit ; corrige tout écart et note-le dans le journal ;
-- propose la suite : « L'outil est construit et le cahier des charges est à jour. Pour une nouvelle fonctionnalité plus tard, relancez /cadre : il partira du cahier des charges existant. »
+- propose la suite : « L'outil est construit et le cahier des charges est à jour. Pour une nouvelle fonctionnalité plus tard, relancez /2-cadre : il partira du cahier des charges existant. »
 
 ## Règles
 

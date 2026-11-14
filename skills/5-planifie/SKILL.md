@@ -1,15 +1,15 @@
 ---
-name: planifie
-description: Cinquième étape du parcours. Découpe le cahier des charges en un minimum de phases, chacune utilisable seule par le dirigeant, et termine toujours par une phase d'audit de sécurité simple. Écrit docs/PLAN.md après validation. Utilise sur /planifie, "découpe le projet", "fais le plan", "par quoi on commence", "en combien d'étapes", ou dès que le cahier des charges est validé. Aval de /design, enchaîne sur /construis.
+name: 5-planifie
+description: Cinquième étape du parcours. Découpe le cahier des charges en un minimum de phases, chacune utilisable seule par le dirigeant, et termine toujours par une phase d'audit de sécurité simple. Écrit docs/PLAN.md après validation. Utilise sur /5-planifie, "découpe le projet", "fais le plan", "par quoi on commence", "en combien d'étapes", ou dès que le cahier des charges est validé. Aval de /4-design, enchaîne sur /6-construis.
 ---
 
-# /planifie
+# /5-planifie
 
 Tu découpes le projet en phases de construction. **Le moins de phases possible**, mais chacune doit produire quelque chose que le dirigeant peut essayer seul. La dernière phase est toujours un audit de sécurité simple. Sortie : `docs/PLAN.md`.
 
 ## 1. Lire
 
-Lis `docs/PRD.md` (en particulier le Socle), `docs/DESIGN.md` et `docs/SCHEMAS.md` s'ils existent. Sans cahier des charges, propose `/cadre` d'abord.
+Lis `docs/PRD.md` (en particulier le Socle), `docs/DESIGN.md` et `docs/SCHEMAS.md` s'ils existent. Sans cahier des charges, propose `/2-cadre` d'abord.
 
 Si `docs/PLAN.md` existe déjà, lis-le : ne réécris pas les phases validées, propose seulement ce qui manque (US non couvertes, écart avec un cahier des charges qui a bougé) et signale les contradictions avant d'écrire.
 
@@ -41,7 +41,7 @@ Puis une seule question : « Ce découpage vous convient, ou on regroupe / sépa
 
 > « Le plan est prêt. Pour lancer la construction, dites simplement : **GO phase 1**. »
 
-Cette phrase déclenche `/construis`.
+Cette phrase déclenche `/6-construis`.
 
 <plan-template>
 # Plan : nom du projet
@@ -89,7 +89,7 @@ Adapter la liste au socle : un artefact sans connexion ni données personnelles 
 
 ## Journal des ajustements
 
-Rempli par /construis quand un ajustement change une phase.
+Rempli par /6-construis quand un ajustement change une phase.
 </plan-template>
 
 ## Règles

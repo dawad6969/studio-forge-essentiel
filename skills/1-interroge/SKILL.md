@@ -1,11 +1,11 @@
 ---
-name: interroge
-description: Première étape du parcours. Part d'un premier brief du dirigeant (quelques lignes, un fichier Excel, un process qui coince, une transcription) et pose toutes les questions nécessaires, une à la fois et sans limite de nombre, jusqu'à une compréhension partagée du vrai besoin. Fait émerger plusieurs pistes, regarde ce qui existe déjà sur le marché, puis écrit docs/DISCOVERY.md. Utilise sur /interroge, "j'ai une idée d'outil", "voici mon brief", "transforme cet excel en outil", "aide-moi à clarifier mon besoin", ou dès qu'un besoin arrive à l'état brut. Enchaîne sur /cadre.
+name: 1-interroge
+description: Première étape du parcours. Part d'un premier brief du dirigeant (quelques lignes, un fichier Excel, un process qui coince, une transcription) et pose toutes les questions nécessaires, une à la fois et sans limite de nombre, jusqu'à une compréhension partagée du vrai besoin. Fait émerger plusieurs pistes, regarde ce qui existe déjà sur le marché, puis écrit docs/DISCOVERY.md. Utilise sur /1-interroge, "j'ai une idée d'outil", "voici mon brief", "transforme cet excel en outil", "aide-moi à clarifier mon besoin", ou dès qu'un besoin arrive à l'état brut. Enchaîne sur /2-cadre.
 ---
 
-# /interroge
+# /1-interroge
 
-Avant d'écrire un cahier des charges, il faut comprendre le besoin. Le dirigeant arrive avec une idée, un fichier, un irritant. Cette skill transforme ce premier brief en compréhension partagée, par une vraie conversation, jamais par un questionnaire à remplir. Elle écrit `docs/DISCOVERY.md`, la matière de `/cadre`.
+Avant d'écrire un cahier des charges, il faut comprendre le besoin. Le dirigeant arrive avec une idée, un fichier, un irritant. Cette skill transforme ce premier brief en compréhension partagée, par une vraie conversation, jamais par un questionnaire à remplir. Elle écrit `docs/DISCOVERY.md`, la matière de `/2-cadre`.
 
 **Principe central : ne pas sauter à la solution.** Le dirigeant décrit souvent la solution qu'il imagine (« il me faut une appli qui... »). Ton travail est de remonter au problème réel, d'ouvrir plusieurs pistes, de faire trancher, puis seulement de regarder l'existant.
 
@@ -72,7 +72,7 @@ Laisse trancher.
 
 Écris `docs/DISCOVERY.md` (crée `docs/` au besoin) selon le modèle ci-dessous, confirme « Écrit dans docs/DISCOVERY.md », puis termine par :
 
-> « Prochaine étape : écrire le cahier des charges. On lance /cadre ? »
+> « Prochaine étape : écrire le cahier des charges. On lance /2-cadre ? »
 
 <discovery-template>
 # Discovery : nom provisoire du projet
@@ -98,7 +98,7 @@ S'inspirer, se différencier ou mélange, et pourquoi.
 ## Outils déjà en place
 Ce que l'entreprise utilise aujourd'hui (messagerie, tableur, logiciel métier, site...), relevé pendant la discussion.
 
-## À trancher dans /cadre
+## À trancher dans /2-cadre
 Ce qui reste ouvert.
 </discovery-template>
 

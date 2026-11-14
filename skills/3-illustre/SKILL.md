@@ -1,9 +1,9 @@
 ---
-name: illustre
-description: Troisième étape du parcours. Dessine sur un tableau blanc Claude (artefact Whiteboard) les flux d'information de l'outil et ses parcours utilisateurs principaux, à partir du cahier des charges, pour que le dirigeant voie l'outil avant qu'il soit construit et corrige ce qui cloche. Utilise sur /illustre, "schématise", "montre-moi les flux", "dessine le parcours", "fais un schéma", "tableau blanc", ou dès que docs/PRD.md est validé. Aval de /cadre, enchaîne sur /design.
+name: 3-illustre
+description: Troisième étape du parcours. Dessine sur un tableau blanc Claude (artefact Whiteboard) les flux d'information de l'outil et ses parcours utilisateurs principaux, à partir du cahier des charges, pour que le dirigeant voie l'outil avant qu'il soit construit et corrige ce qui cloche. Utilise sur /3-illustre, "schématise", "montre-moi les flux", "dessine le parcours", "fais un schéma", "tableau blanc", ou dès que docs/PRD.md est validé. Aval de /2-cadre, enchaîne sur /4-design.
 ---
 
-# /illustre
+# /3-illustre
 
 Un cahier des charges se lit, un schéma se comprend d'un coup d'œil. Cette étape met à plat deux choses sur un tableau blanc partagé :
 
@@ -14,7 +14,7 @@ C'est souvent ici que le dirigeant dit « ah non, en vrai c'est la compta qui va
 
 ## 1. Préparer
 
-Lis `docs/PRD.md`. Sans cahier des charges, propose `/cadre` d'abord.
+Lis `docs/PRD.md`. Sans cahier des charges, propose `/2-cadre` d'abord.
 
 Repère, sans poser de question :
 - **Les acteurs** : chaque profil d'utilisateur, plus les systèmes extérieurs (tableur existant, logiciel de gestion, messagerie, client final).
@@ -72,7 +72,7 @@ US-x : étape 1 → étape 2 → ...
 
 Confirme « Écrit dans docs/SCHEMAS.md », puis termine par :
 
-> « Prochaine étape : poser une charte graphique sobre pour l'outil. On lance /design ? »
+> « Prochaine étape : poser une charte graphique sobre pour l'outil. On lance /4-design ? »
 
 ## Règles
 
