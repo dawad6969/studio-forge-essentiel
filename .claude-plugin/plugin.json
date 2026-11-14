@@ -1,0 +1,19 @@
+{
+  "name": "studio-forge-essentiel",
+  "version": "0.1.0",
+  "description": "Le parcours essentiel du Studio David Perret pour les dirigeants de PME : de l'idée brute à l'outil construit avec Claude. Six étapes enchaînées (interroger le besoin, cadrer, schématiser, poser le design, planifier, construire), chacune propose de lancer la suivante, et le cahier des charges suit le développement.",
+  "author": {
+    "name": "David Perret"
+  },
+  "license": "MIT",
+  "keywords": [
+    "cadrage",
+    "cahier-des-charges",
+    "pme",
+    "formation",
+    "design",
+    "plan",
+    "no-code",
+    "vibe-coding"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "studio-forge-essentiel",
+  "owner": {
+    "name": "David Perret"
+  },
+  "metadata": {
+    "description": "Le parcours essentiel du Studio David Perret : de l'idée brute à l'outil construit avec Claude, pour dirigeants de PME."
+  },
+  "plugins": [
+    {
+      "name": "studio-forge-essentiel",
+      "source": "./",
+      "description": "De l'idée brute à l'outil construit avec Claude, en six étapes enchaînées, pour dirigeants de PME."
+    }
+  ]
+}
