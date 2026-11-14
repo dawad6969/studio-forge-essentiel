@@ -36,7 +36,7 @@ Dans Claude Code et dans Cowork. Les documents sont écrits dans un dossier `doc
 Dans Claude Code :
 
 ```
-/plugin marketplace add <compte-github>/studio-forge-essentiel
+/plugin marketplace add dawad6969/studio-forge-essentiel
 /plugin install studio-forge-essentiel@studio-forge-essentiel
 ```
 
