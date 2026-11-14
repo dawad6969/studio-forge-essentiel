@@ -1,6 +1,6 @@
 ---
 name: 4-design
-description: Quatrième étape du parcours. Propose une charte graphique sobre adaptée à l'activité de l'entreprise et à l'outil (2 à 3 couleurs, une typographie lisible, boutons plats, peu d'effets), en partant de l'identité existante si elle existe, montre un aperçu, puis écrit docs/DESIGN.md. Utilise sur /4-design, "charte graphique", "design system", "couleurs", "à quoi ressemblera l'outil", ou dès que le cahier des charges est validé. Aval de /3-illustre, enchaîne sur /5-planifie.
+description: Quatrième étape du parcours. Propose une charte graphique sobre adaptée à l'activité de l'entreprise et à l'outil (2 à 3 couleurs, une typographie lisible, boutons plats, peu d'effets), en partant de l'identité existante si elle existe, montre un aperçu, puis écrit docs/DESIGN.md. Utilise sur /4-design, "charte graphique", "design system", "couleurs", "à quoi ressemblera l'outil", ou dès que le cahier des charges est validé. Aval de /3-schematise, enchaîne sur /5-planifie.
 ---
 
 # /4-design
@@ -85,9 +85,19 @@ Espacement, accessibilité, ce qu'on s'interdit.
 :root { ... } prêtes à coller.
 ```
 
-Confirme « Écrit dans docs/DESIGN.md », puis termine par :
+Confirme « Écrit dans docs/DESIGN.md », puis termine comme indiqué dans « Fin de l'étape ».
 
-> « Prochaine étape : découper le projet en étapes de construction. On lance /5-planifie ? »
+## Fin de l'étape
+
+Une fois le fichier écrit, termine toujours ainsi, en adaptant les mots au projet :
+
+1. **Ce qui est fait** : une phrase sur ce que cette étape a produit.
+2. **La suite du parcours** : les étapes restantes, une ligne chacune :
+   - **/5-planifie** : découper le projet en un minimum de phases, la dernière étant un audit de sécurité
+   - **/6-construis** : construire l'outil phase par phase sur votre feu vert, cahier des charges tenu à jour
+3. **Ta recommandation** : l'étape suivante, avec une raison liée au projet (par défaut : tout est cadré et la charte est fixée, il reste à décider dans quel ordre construire). Termine par l'action à faire : lancez **/5-planifie**.
+
+Si le projet est assez simple pour sauter l'étape suivante, dis-le et recommande celle d'après, sans décider à la place du dirigeant.
 
 ## Règles
 

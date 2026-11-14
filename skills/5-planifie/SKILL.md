@@ -37,11 +37,7 @@ Puis une seule question : « Ce découpage vous convient, ou on regroupe / sépa
 
 ## 4. Écrire le plan
 
-Écris `docs/PLAN.md` selon le modèle et confirme « Écrit dans docs/PLAN.md ». Puis termine par :
-
-> « Le plan est prêt. Pour lancer la construction, dites simplement : **GO phase 1**. »
-
-Cette phrase déclenche `/6-construis`.
+Écris `docs/PLAN.md` selon le modèle et confirme « Écrit dans docs/PLAN.md », puis termine comme indiqué dans « Fin de l'étape ».
 
 <plan-template>
 # Plan : nom du projet
@@ -91,6 +87,17 @@ Adapter la liste au socle : un artefact sans connexion ni données personnelles 
 
 Rempli par /6-construis quand un ajustement change une phase.
 </plan-template>
+
+## Fin de l'étape
+
+Une fois le fichier écrit, termine toujours ainsi, en adaptant les mots au projet :
+
+1. **Ce qui est fait** : une phrase sur ce que cette étape a produit.
+2. **La suite du parcours** : les étapes restantes, une ligne chacune :
+   - **/6-construis** : construire l'outil phase par phase sur votre feu vert, cahier des charges tenu à jour
+3. **Ta recommandation** : l'étape suivante, avec une raison liée au projet (par défaut : le plan est validé, la construction peut commencer). Termine par l'action à faire : dites simplement **GO phase 1** (cela lance /6-construis).
+
+Si le projet est assez simple pour sauter l'étape suivante, dis-le et recommande celle d'après, sans décider à la place du dirigeant.
 
 ## Règles
 

@@ -1,9 +1,9 @@
 ---
-name: 3-illustre
-description: Troisième étape du parcours. Dessine sur un tableau blanc Claude (artefact Whiteboard) les flux d'information de l'outil et ses parcours utilisateurs principaux, à partir du cahier des charges, pour que le dirigeant voie l'outil avant qu'il soit construit et corrige ce qui cloche. Utilise sur /3-illustre, "schématise", "montre-moi les flux", "dessine le parcours", "fais un schéma", "tableau blanc", ou dès que docs/PRD.md est validé. Aval de /2-cadre, enchaîne sur /4-design.
+name: 3-schematise
+description: Troisième étape du parcours. Dessine sur un tableau blanc Claude (artefact Whiteboard) les flux d'information de l'outil et ses parcours utilisateurs principaux, à partir du cahier des charges, pour que le dirigeant voie l'outil avant qu'il soit construit et corrige ce qui cloche. Utilise sur /3-schematise, "schématise", "montre-moi les flux", "dessine le parcours", "fais un schéma", "tableau blanc", ou dès que docs/PRD.md est validé. Aval de /2-cadre, enchaîne sur /4-design.
 ---
 
-# /3-illustre
+# /3-schematise
 
 Un cahier des charges se lit, un schéma se comprend d'un coup d'œil. Cette étape met à plat deux choses sur un tableau blanc partagé :
 
@@ -70,9 +70,20 @@ Les flux en quelques lignes de texte (acteur → information → acteur), pour q
 US-x : étape 1 → étape 2 → ...
 ```
 
-Confirme « Écrit dans docs/SCHEMAS.md », puis termine par :
+Confirme « Écrit dans docs/SCHEMAS.md », puis termine comme indiqué dans « Fin de l'étape ».
 
-> « Prochaine étape : poser une charte graphique sobre pour l'outil. On lance /4-design ? »
+## Fin de l'étape
+
+Une fois le fichier écrit, termine toujours ainsi, en adaptant les mots au projet :
+
+1. **Ce qui est fait** : une phrase sur ce que cette étape a produit.
+2. **La suite du parcours** : les étapes restantes, une ligne chacune :
+   - **/4-design** : poser une charte graphique sobre adaptée à votre activité
+   - **/5-planifie** : découper le projet en un minimum de phases, la dernière étant un audit de sécurité
+   - **/6-construis** : construire l'outil phase par phase sur votre feu vert, cahier des charges tenu à jour
+3. **Ta recommandation** : l'étape suivante, avec une raison liée au projet (par défaut : les flux sont validés, on peut donner à l'outil une apparence cohérente avant de le construire). Termine par l'action à faire : lancez **/4-design**.
+
+Si le projet est assez simple pour sauter l'étape suivante, dis-le et recommande celle d'après, sans décider à la place du dirigeant.
 
 ## Règles
 

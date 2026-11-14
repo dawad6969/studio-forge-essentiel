@@ -62,7 +62,7 @@ Si l'ajustement contredit quelque chose de déjà décidé (une règle validée,
 5. Termine par la suggestion de la suite :
    > « Phase 1 terminée. Essayez-la, dites-moi ce qui ne va pas, ou lancez la suite : **GO phase 2** (titre de la phase 2). »
 
-   Liste ensuite les phases restantes, titre seulement.
+   Liste ensuite les phases restantes, une ligne chacune (titre et ce qu'on pourra essayer), et recommande la suivante avec une raison liée à ce qui vient d'être construit.
 
 ## Phase d'audit de sécurité
 
@@ -77,7 +77,8 @@ Pour la dernière phase, reprends chaque point de la liste du plan :
 
 Quand toutes les phases sont terminées :
 - relis `docs/PRD.md` et vérifie qu'il décrit bien l'outil tel qu'il est construit ; corrige tout écart et note-le dans le journal ;
-- propose la suite : « L'outil est construit et le cahier des charges est à jour. Pour une nouvelle fonctionnalité plus tard, relancez /2-cadre : il partira du cahier des charges existant. »
+- synthétise le parcours en quelques lignes : le besoin de départ (`docs/DISCOVERY.md`), ce que l'outil fait aujourd'hui (`docs/PRD.md`), les ajustements notés au journal, l'état de sécurité ;
+- recommande la suite selon la situation : faire utiliser l'outil quelques jours par les vrais utilisateurs avant tout ajout, puis, pour une nouvelle fonctionnalité, relancer **/2-cadre**, qui partira du cahier des charges existant.
 
 ## Règles
 

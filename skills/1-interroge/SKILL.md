@@ -9,6 +9,22 @@ Avant d'écrire un cahier des charges, il faut comprendre le besoin. Le dirigean
 
 **Principe central : ne pas sauter à la solution.** Le dirigeant décrit souvent la solution qu'il imagine (« il me faut une appli qui... »). Ton travail est de remonter au problème réel, d'ouvrir plusieurs pistes, de faire trancher, puis seulement de regarder l'existant.
 
+## 0. Présenter le parcours
+
+Au tout début, avant toute question, présente le parcours en quelques lignes, pour que le dirigeant sache où il va :
+
+> « On va avancer en six étapes, chacune vous proposera la suivante :
+> 1. **/1-interroge** : clarifier le vrai besoin à partir de votre premier brief, par une série de questions
+> 2. **/2-cadre** : repérer les outils de votre entreprise et écrire le cahier des charges à valider
+> 3. **/3-schematise** : voir les flux d'information et les parcours principaux sur un tableau blanc
+> 4. **/4-design** : poser une charte graphique sobre adaptée à votre activité
+> 5. **/5-planifie** : découper le projet en un minimum de phases, la dernière étant un audit de sécurité
+> 6. **/6-construis** : construire l'outil phase par phase sur votre feu vert, cahier des charges tenu à jour
+>
+> On commence par la première. »
+
+Reste bref : pas de détail sur chaque étape, elles se présenteront au moment venu. Si le parcours a déjà été présenté dans la conversation, ne le répète pas.
+
 ## 1. Recevoir le premier brief
 
 Le premier brief est obligatoire. Prends ce qui est fourni : texte collé, fichier joint, transcription, capture. S'il y a un fichier Excel, utilise la skill `xlsx` si elle est disponible, sinon lis-le directement.
@@ -70,9 +86,7 @@ Laisse trancher.
 
 ## 7. Écrire la synthèse
 
-Écris `docs/DISCOVERY.md` (crée `docs/` au besoin) selon le modèle ci-dessous, confirme « Écrit dans docs/DISCOVERY.md », puis termine par :
-
-> « Prochaine étape : écrire le cahier des charges. On lance /2-cadre ? »
+Écris `docs/DISCOVERY.md` (crée `docs/` au besoin) selon le modèle ci-dessous, confirme « Écrit dans docs/DISCOVERY.md », puis termine comme indiqué dans « Fin de l'étape ».
 
 <discovery-template>
 # Discovery : nom provisoire du projet
@@ -101,6 +115,21 @@ Ce que l'entreprise utilise aujourd'hui (messagerie, tableur, logiciel métier, 
 ## À trancher dans /2-cadre
 Ce qui reste ouvert.
 </discovery-template>
+
+## Fin de l'étape
+
+Une fois le fichier écrit, termine toujours ainsi, en adaptant les mots au projet :
+
+1. **Ce qui est fait** : une phrase sur ce que cette étape a produit.
+2. **La suite du parcours** : les étapes restantes, une ligne chacune :
+   - **/2-cadre** : repérer les outils de votre entreprise et écrire le cahier des charges à valider
+   - **/3-schematise** : voir les flux d'information et les parcours principaux sur un tableau blanc
+   - **/4-design** : poser une charte graphique sobre adaptée à votre activité
+   - **/5-planifie** : découper le projet en un minimum de phases, la dernière étant un audit de sécurité
+   - **/6-construis** : construire l'outil phase par phase sur votre feu vert, cahier des charges tenu à jour
+3. **Ta recommandation** : l'étape suivante, avec une raison liée au projet (par défaut : le besoin est clair, c'est le bon moment pour le figer dans un cahier des charges avant que les idées ne s'éparpillent). Termine par l'action à faire : lancez **/2-cadre**.
+
+Si le projet est assez simple pour sauter l'étape suivante, dis-le et recommande celle d'après, sans décider à la place du dirigeant.
 
 ## Règles
 

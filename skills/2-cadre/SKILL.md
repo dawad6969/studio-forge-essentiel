@@ -1,6 +1,6 @@
 ---
 name: 2-cadre
-description: Deuxième étape du parcours. Identifie les outils et l'infrastructure que l'entreprise utilise déjà (ou en propose si elle n'en a pas), puis rédige un cahier des charges en langage clair, validé section par section par le dirigeant, et l'écrit dans docs/PRD.md. Utilise sur /2-cadre, "écris le cahier des charges", "fais le PRD", "cadre le projet", "formalise mon besoin", ou dès que docs/DISCOVERY.md existe. Aval de /1-interroge, enchaîne sur /3-illustre.
+description: Deuxième étape du parcours. Identifie les outils et l'infrastructure que l'entreprise utilise déjà (ou en propose si elle n'en a pas), puis rédige un cahier des charges en langage clair, validé section par section par le dirigeant, et l'écrit dans docs/PRD.md. Utilise sur /2-cadre, "écris le cahier des charges", "fais le PRD", "cadre le projet", "formalise mon besoin", ou dès que docs/DISCOVERY.md existe. Aval de /1-interroge, enchaîne sur /3-schematise.
 ---
 
 # /2-cadre
@@ -46,9 +46,7 @@ DISCOVERY nourrit directement Problème et Solution : reformule, ne redemande pa
 
 Quand chaque section peut s'écrire sans trou, dis-le en une phrase et poste le cahier des charges complet dans le chat, selon le modèle. Le dirigeant valide ou corrige section par section. Sur une correction, re-poste seulement la section touchée.
 
-Une fois tout validé, écris `docs/PRD.md` (crée `docs/` au besoin), confirme « Écrit dans docs/PRD.md », puis termine par :
-
-> « Prochaine étape : visualiser les flux d'information et les parcours sur un tableau blanc. On lance /3-illustre ? »
+Une fois tout validé, écris `docs/PRD.md` (crée `docs/` au besoin), confirme « Écrit dans docs/PRD.md », puis termine comme indiqué dans « Fin de l'étape ».
 
 <prd-template>
 # Cahier des charges : nom du projet
@@ -102,6 +100,20 @@ Risques, dépendances, hypothèses. « Rien à signaler. » si rien.
 
 Rempli automatiquement par /6-construis quand le projet change en cours de route. Vide au départ.
 </prd-template>
+
+## Fin de l'étape
+
+Une fois le fichier écrit, termine toujours ainsi, en adaptant les mots au projet :
+
+1. **Ce qui est fait** : une phrase sur ce que cette étape a produit.
+2. **La suite du parcours** : les étapes restantes, une ligne chacune :
+   - **/3-schematise** : voir les flux d'information et les parcours principaux sur un tableau blanc
+   - **/4-design** : poser une charte graphique sobre adaptée à votre activité
+   - **/5-planifie** : découper le projet en un minimum de phases, la dernière étant un audit de sécurité
+   - **/6-construis** : construire l'outil phase par phase sur votre feu vert, cahier des charges tenu à jour
+3. **Ta recommandation** : l'étape suivante, avec une raison liée au projet (par défaut : un schéma fait apparaître en quelques minutes les oublis et les malentendus que le texte cache). Termine par l'action à faire : lancez **/3-schematise**.
+
+Si le projet est assez simple pour sauter l'étape suivante, dis-le et recommande celle d'après, sans décider à la place du dirigeant.
 
 ## Règles
 
