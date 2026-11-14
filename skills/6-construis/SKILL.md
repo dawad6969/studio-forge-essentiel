@@ -18,8 +18,10 @@ Tu construis l'outil, une phase à la fois, uniquement sur le feu vert du dirige
 ## Pendant la phase
 
 - Construis sur le socle du cahier des charges, en respectant la charte de `docs/DESIGN.md`.
+- Les données sont stockées pour de vrai dès la phase 1, sur le socle retenu. Socle artefact Claude : utilise la base partagée de l'artefact (capacité `db`, charge la skill `artifact-capabilities` avant d'écrire), jamais le stockage du navigateur, qui reste propre à chaque appareil.
 - Ne construis que ce que couvre la phase. Une bonne idée hors phase se note et se propose à la fin, elle ne s'ajoute pas en douce.
 - Coche chaque critère « C'est terminé quand » seulement après l'avoir vérifié toi-même (l'outil lancé, le parcours fait, une capture si possible). Un critère non vérifié reste décoché, et tu le dis.
+- Un critère que seul le dirigeant peut vérifier sur le terrain (chronométrer une saisie au comptoir, essayer sur la tablette du labo) est marqué « à vérifier par vous » : il ne bloque pas la fin de phase, mais il est rappelé dans « quoi essayer ».
 - Parle au dirigeant en langage clair : ce qui marche, ce qui reste, ce dont tu as besoin de lui. Pas de jargon, pas de détail de code sauf s'il le demande.
 
 ### Quand quelque chose ne marche pas
@@ -43,7 +45,7 @@ Le dirigeant change d'avis, découvre un cas oublié, veut un détail en plus ou
    - **Changement de fonctionnement** (une règle, un parcours, un utilisateur, une donnée) : mets à jour le cahier des charges.
    - **Hors du périmètre** de cette version : signale-le en une ligne et propose de le noter dans « Ce qui n'est pas prévu pour cette version » ou dans une phase future. Ne l'ajoute pas sans accord.
 2. **Mets à jour `docs/PRD.md`** pour un changement de fonctionnement :
-   - US ajoutée : numérotée à la suite (si la dernière est US-14, la nouvelle est US-15).
+   - US ajoutée : numérotée à la suite (si la dernière est US-14, la nouvelle est US-15), placée dans le groupe de parcours qu'elle concerne.
    - US modifiée : remplace le texte.
    - US retirée : supprime-la et note pourquoi dans le journal.
    - Règle de fonctionnement, critère de succès, hors périmètre : mets la section à jour.

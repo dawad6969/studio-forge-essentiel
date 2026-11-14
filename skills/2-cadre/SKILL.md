@@ -30,11 +30,11 @@ Ensuite, deux cas :
 
 | Besoin | Socle proposé |
 |---|---|
-| Outil personnel ou petite équipe, peu de données, pas de connexion | Un artefact Claude (page interactive partagée) ou un tableur enrichi |
+| Outil personnel ou petite équipe, peu de données, pas de connexion individuelle | Un artefact Claude (page interactive avec données partagées) ou un tableur enrichi. **Condition** : chaque personne ou appareil qui l'ouvre doit être connecté à un compte Claude, et l'artefact doit être partagé depuis son menu Partager. Si ce n'est pas le cas, passer à la ligne suivante. |
 | Plusieurs utilisateurs, données partagées, accès sur téléphone | Une application web : Next.js + Supabase (base et comptes) + Vercel (mise en ligne), offres gratuites pour démarrer |
 | L'entreprise vit déjà dans Google Workspace ou Microsoft 365 | Une extension de cet environnement (Google Sheets + Apps Script, ou Microsoft Lists + Power Automate) |
 
-Nomme les outils, dis ce que ça coûtera par mois au démarrage si c'est payant (recherche les tarifs actuels, ne les donne pas de mémoire), et attends la validation. Le socle choisi va dans la section Socle du cahier des charges, et c'est la seule section qui nomme des technologies.
+Pour chaque socle proposé, vérifie avec le dirigeant comment chaque utilisateur y accédera concrètement (quel compte, quel appareil). Nomme les outils, dis ce que ça coûtera par mois au démarrage si c'est payant (recherche les tarifs actuels, ne les donne pas de mémoire), et attends la validation. Le socle choisi va dans la section Socle du cahier des charges, et c'est la seule section qui nomme des technologies.
 
 ## 3. Compléter, une question à la fois
 

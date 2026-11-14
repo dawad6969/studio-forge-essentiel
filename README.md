@@ -29,7 +29,7 @@ votre idée, votre fichier, votre irritant
 
 Dans Claude Code et dans Cowork. Les documents sont écrits dans un dossier `docs/` du projet : ouvrez un dossier dédié par projet avant de commencer.
 
-`/3-schematise` et `/4-design` utilisent les artefacts Claude (tableau blanc, design system). S'ils ne sont pas disponibles dans votre environnement, la skill bascule sur un schéma ou une page HTML classique.
+`/3-schematise` dessine sur un tableau blanc Claude et `/4-design` publie son aperçu comme artefact. Sans artefacts dans votre environnement, les deux skills basculent sur une page HTML dans `docs/`. Un artefact est privé : partagez-le depuis son menu Partager pour le montrer à votre équipe.
 
 ## Installation
 

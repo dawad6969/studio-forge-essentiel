@@ -52,9 +52,9 @@ ESPACEMENT : base 8 px, densité aérée ou compacte : raison
 
 ## 4. Montrer
 
-Montre la charte en vrai plutôt qu'en mots. Avec l'outil `Artifact`, crée un design system à partir du type **Design System** (`action: "list"`, `scope: "types"` pour trouver son `type_url`), puis suis les instructions renvoyées à la création. Contenu minimal : les couleurs, la typographie, les boutons principal et secondaire, un champ de saisie, une carte, et un README d'une page qui explique la charte.
+Montre la charte en vrai plutôt qu'en mots. Écris `docs/design-preview.html`, une page autonome sans librairie externe : la palette avec ses rôles, la typographie, les boutons principal et secondaire, un champ de saisie, une carte, et **un écran type de l'outil** (le plus important du cahier des charges) avec de vraies données d'exemple. Si l'outil `Artifact` est disponible, publie cette page comme artefact pour que le dirigeant l'ouvre d'un clic, sinon ouvre le fichier.
 
-**Si l'artefact design system n'est pas disponible** : écris un aperçu dans `docs/design-preview.html` (une page autonome : palette, typographie, boutons, un champ, une carte, un écran type de l'outil) et ouvre-le.
+Ne crée pas d'artefact Design System à cette étape : il est conçu pour des systèmes complets et coûte beaucoup d'étapes pour une charte de trois couleurs. Une fois la charte validée, propose-le seulement si le dirigeant veut réutiliser la charte pour d'autres outils ou documents.
 
 Demande : « On valide, ou on ajuste une partie ? » Sur un ajustement, propose 2 alternatives pour cette partie seulement.
 
@@ -66,7 +66,7 @@ Une fois validée, écris `docs/DESIGN.md` :
 # Charte : nom du projet
 
 - Source : identité existante (site, charte) ou création
-- Design system : lien de l'artefact, s'il existe
+- Aperçu : lien de l'artefact ou docs/design-preview.html
 - Impression recherchée : ...
 
 ## Couleurs

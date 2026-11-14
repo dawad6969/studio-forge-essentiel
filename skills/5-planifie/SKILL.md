@@ -19,6 +19,8 @@ Chaque phase est une **tranche complète** : un parcours réel, de la saisie au 
 
 Méthode :
 - **Phase 1 = le moteur métier sur le parcours le plus important**, dans sa forme la plus simple. À la fin de la phase 1, le dirigeant doit pouvoir faire le geste principal de bout en bout, même sans finitions.
+- **La phase 1 inclut toujours le stockage réel des données** sur le socle retenu : une saisie doit survivre à la fermeture de l'outil et, si plusieurs personnes l'utilisent, apparaître chez les autres. Une maquette qui perd les données n'est pas une phase terminée.
+- **Les risques « à vérifier » de la section Notes du cahier des charges** deviennent des critères de la phase 1 (par exemple : « chaque tablette ouvre l'outil »), pour qu'ils soient levés avant d'aller plus loin.
 - **Phases suivantes** : chacune ajoute un parcours ou un utilisateur qui compte. Regroupe les petites US ensemble plutôt que d'en faire des phases.
 - **Viser 2 à 4 phases de construction** pour un outil de PME. Au-delà de 5, le projet est probablement trop gros pour une première version : propose de reporter une partie dans « Ce qui n'est pas prévu pour cette version ».
 - **Dernière phase : audit de sécurité simple** (voir plus bas), toujours présente, jamais fusionnée avec une autre.
@@ -62,6 +64,7 @@ Le parcours de bout en bout, du point de vue de l'utilisateur.
 ### C'est terminé quand
 - [ ] critère observable
 - [ ] critère observable
+- [ ] (phase 1) une saisie est toujours là après fermeture et réouverture, et visible depuis un autre appareil si l'outil est partagé
 
 ---
 

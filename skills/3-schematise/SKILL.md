@@ -47,7 +47,7 @@ Sobriété :
 Donne le lien du tableau, puis pose une seule question :
 > « Est-ce que ça correspond à la réalité de votre entreprise ? Dites-moi ce qui manque ou ce qui est faux, même un détail. »
 
-Le dirigeant peut aussi modifier le tableau directement : relis-le avant de répondre à ses remarques.
+Le dirigeant peut aussi modifier le tableau directement : relis-le avant de répondre à ses remarques. Le tableau est privé : pour le montrer à son équipe, il le partage depuis le menu Partager du tableau (dis-le-lui une fois).
 
 Sur chaque correction :
 - mets à jour le tableau (sans le reconstruire, seulement ce qui change) ;
