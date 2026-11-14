@@ -18,7 +18,7 @@ Tu construis l'outil, une phase à la fois, uniquement sur le feu vert du dirige
 ## Pendant la phase
 
 - Construis sur le socle du cahier des charges, en respectant la charte de `docs/DESIGN.md`.
-- Les données sont stockées pour de vrai dès la phase 1, sur le socle retenu. Socle artefact Claude : utilise la base partagée de l'artefact (capacité `db`, charge la skill `artifact-capabilities` avant d'écrire), jamais le stockage du navigateur, qui reste propre à chaque appareil.
+- Les données sont stockées pour de vrai dès la phase 1, sur le socle retenu. Socle artefact Claude : utilise la base partagée de l'artefact (capacité `db`, charge la skill `artifact-capabilities` avant d'écrire), jamais le stockage du navigateur, qui reste propre à chaque appareil. La page affiche un message clair quand la base n'est pas joignable (appareil non connecté au bon compte). Pour vérifier sans le dirigeant, écris une donnée de test dans la base avec l'outil `ArtifactData` (droits d'un simple utilisateur), relis-la, puis demande-lui d'ouvrir le lien pour confirmer qu'elle s'affiche ; supprime la donnée de test une fois la phase validée.
 - Ne construis que ce que couvre la phase. Une bonne idée hors phase se note et se propose à la fin, elle ne s'ajoute pas en douce.
 - Coche chaque critère « C'est terminé quand » seulement après l'avoir vérifié toi-même (l'outil lancé, le parcours fait, une capture si possible). Un critère non vérifié reste décoché, et tu le dis.
 - Un critère que seul le dirigeant peut vérifier sur le terrain (chronométrer une saisie au comptoir, essayer sur la tablette du labo) est marqué « à vérifier par vous » : il ne bloque pas la fin de phase, mais il est rappelé dans « quoi essayer ».

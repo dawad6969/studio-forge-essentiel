@@ -30,7 +30,7 @@ Ensuite, deux cas :
 
 | Besoin | Socle proposé |
 |---|---|
-| Outil personnel ou petite équipe, peu de données, pas de connexion individuelle | Un artefact Claude (page interactive avec données partagées) ou un tableur enrichi. **Condition** : chaque personne ou appareil qui l'ouvre doit être connecté à un compte Claude, et l'artefact doit être partagé depuis son menu Partager. Si ce n'est pas le cas, passer à la ligne suivante. |
+| Outil personnel ou petite équipe, peu de données, pas de connexion individuelle | Un artefact Claude (page interactive avec données partagées) ou un tableur enrichi. **Condition** : un artefact avec données partagées est réservé à l'organisation Claude de son créateur. Chaque personne ou appareil qui l'ouvre doit être connecté à un compte membre de cette organisation (par exemple une offre Team de l'entreprise), et l'artefact doit être partagé depuis son menu Partager. Il ne peut pas être rendu public. Si ce n'est pas le cas, passer à la ligne suivante. |
 | Plusieurs utilisateurs, données partagées, accès sur téléphone | Une application web : Next.js + Supabase (base et comptes) + Vercel (mise en ligne), offres gratuites pour démarrer |
 | L'entreprise vit déjà dans Google Workspace ou Microsoft 365 | Une extension de cet environnement (Google Sheets + Apps Script, ou Microsoft Lists + Power Automate) |
 
